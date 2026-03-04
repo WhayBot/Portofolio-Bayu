@@ -19,7 +19,7 @@ export default function About() {
                 viewport={{ once: true }}
                 className="relative group mb-8"
             >
-                {/* Neon Glow Behind Image */}
+                {/* The Factory Must Grow */}
                 <div className="absolute -inset-1 rounded-full bg-gradient-to-r from-[#00f0ff]/50 to-blue-600/50 blur-lg opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-2 border-[#00f0ff]/30 z-10">
                     <Image
