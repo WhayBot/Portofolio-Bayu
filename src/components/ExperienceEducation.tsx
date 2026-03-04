@@ -52,7 +52,7 @@ export default function ExperienceEducation() {
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-8">
-                    {/* Education Timeline */}
+                    {/* Stop Coal, Go Nuclear */}
                     <div>
                         <div className="flex items-center gap-4 mb-8">
                             <div className="p-3 rounded-xl bg-blue-900/30 text-blue-400 border border-blue-500/20">
@@ -83,7 +83,6 @@ export default function ExperienceEducation() {
                         </div>
                     </div>
 
-                    {/* Experience Timeline */}
                     <div>
                         <div className="flex items-center gap-4 mb-8">
                             <div className="p-3 rounded-xl bg-purple-900/30 text-purple-400 border border-purple-500/20">
