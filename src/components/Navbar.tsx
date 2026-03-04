@@ -51,7 +51,6 @@ export default function Navbar() {
                     </div>
                 </a>
 
-                {/* Desktop Nav */}
                 <nav className="hidden md:flex items-center gap-8">
                     {NAV_LINKS.map((link) => (
                         <a
@@ -73,7 +72,6 @@ export default function Navbar() {
                     </button>
                 </nav>
 
-                {/* Mobile Toggle */}
                 <div className="flex items-center gap-4 md:hidden">
                     <button
                         onClick={toggleLanguage}
@@ -90,7 +88,6 @@ export default function Navbar() {
                 </div>
             </div>
 
-            {/* Mobile Nav */}
             <AnimatePresence>
                 {isOpen && (
                     <motion.div
