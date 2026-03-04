@@ -12,7 +12,6 @@ interface LanguageContextProps {
 
 const LanguageContext = createContext<LanguageContextProps | undefined>(undefined);
 
-// Simple dictionary for the portfolio
 const translations: Record<Language, Record<string, string>> = {
     id: {
         "nav.about": "Tentang",
@@ -28,14 +27,12 @@ const translations: Record<Language, Record<string, string>> = {
         "experience.title": "Pendidikan & Pengalaman",
         "contact.title": "Mari Terhubung",
         "contact.button": "Kirim Email",
-        // Projects
         "proj.dusk.title": "DUSK (Dust Unification and Sweeping Keeper)",
         "proj.dusk.desc": "Sebuah robot pembersih lantai pintar yang dirancang untuk secara otomatis membersihkan debu dan kotoran. Dilengkapi dengan sensor cerdas untuk navigasi ruangan.",
         "proj.mist.title": "Mist-Ify",
         "proj.mist.desc": "Sebuah alat budidaya jamur tiram otomatis yang mengontrol kelembaban dan suhu secara mandiri. Membantu petani jamur untuk meningkatkan hasil panen dengan teknologi efisien.",
         "proj.fog.title": "Field of Gray",
         "proj.fog.desc": "Sebuah proyek game 2.5D Top-Down RPG yang dibuat dengan menggunakan Unity Engine. Menawarkan pengalaman bermain taktis dengan gaya visual yang unik.",
-        // Educations & Experiences
         "edu.sd.title": "MI Terpadu Logaritma Kedungjati",
         "edu.sd.time": "2015 - 2020",
         "edu.smp.title": "SMP PGRI 1 Sempor",
@@ -63,14 +60,12 @@ const translations: Record<Language, Record<string, string>> = {
         "experience.title": "Education & Experience",
         "contact.title": "Let's Connect",
         "contact.button": "Send Email",
-        // Projects
         "proj.dusk.title": "DUSK (Dust Unification and Sweeping Keeper)",
         "proj.dusk.desc": "A smart floor-cleaning robot designed to automatically sweep dust and dirt. Equipped with intelligent sensors for room navigation.",
         "proj.mist.title": "Mist-Ify",
         "proj.mist.desc": "An automated oyster mushroom cultivation tool that autonomously controls humidity and temperature. Helps mushroom farmers increase crop yields efficiently.",
         "proj.fog.title": "Field of Gray",
         "proj.fog.desc": "A 2.5D Top-Down RPG game project created using the Unity Engine. Offers a tactical gameplay experience with unique visual styles.",
-        // Educations & Experiences
         "edu.sd.title": "Logaritma Islamic Elementary School",
         "edu.sd.time": "2015 - 2020",
         "edu.smp.title": "PGRI Sempor Junior High School",
