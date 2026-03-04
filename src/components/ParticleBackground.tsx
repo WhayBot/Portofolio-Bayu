@@ -56,7 +56,7 @@ export default function ParticleBackground() {
                         links: {
                             color: "#ffffff",
                             distance: 150,
-                            enable: false, // Let's keep it stars-like
+                            enable: false,
                             opacity: 0.1,
                             width: 1,
                         },
