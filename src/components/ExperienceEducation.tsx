@@ -29,6 +29,11 @@ export default function ExperienceEducation() {
             descKey: "exp.pt.desc",
         },
         {
+            titleKey: "exp.aus.title",
+            timeKey: "exp.aus.time",
+            descKey: "exp.aus.desc",
+        },
+        {
             titleKey: "exp.icp.title",
             timeKey: "exp.icp.time",
             descKey: "exp.icp.desc",

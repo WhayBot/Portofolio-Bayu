@@ -45,6 +45,9 @@ const translations: Record<Language, Record<string, string>> = {
         "exp.icp.title": "Panitia - ICP Leadership Camp",
         "exp.icp.time": "Agustus - Oktober 2025",
         "exp.icp.desc": "Berperan sebagai panitia dalam acara kemah kepemimpinan tingkat sekolah.",
+        "exp.aus.title": "Delegasi - International School Visit to Australia",
+        "exp.aus.time": "Mei 2025",
+        "exp.aus.desc": "Menjadi perwakilan sekolah dalam program International Exposure ke Australia guna membangun jejaring dan kerja sama pendidikan antarnegara.",
     },
     en: {
         "nav.about": "About",
@@ -78,6 +81,9 @@ const translations: Record<Language, Record<string, string>> = {
         "exp.icp.title": "Committee - ICP Leadership Camp",
         "exp.icp.time": "August - October 2025",
         "exp.icp.desc": "Acted as a committee member for the school's leadership camp event.",
+        "exp.aus.title": "Delegate - International School Visit to Australia",
+        "exp.aus.time": "May 2025",
+        "exp.aus.desc": "Represented the school in an International Exposure program to Australia, aiming to foster cross-cultural educational partnerships and networking.",
     },
 };
 
