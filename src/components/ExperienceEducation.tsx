@@ -24,14 +24,14 @@ export default function ExperienceEducation() {
 
     const experience = [
         {
-            titleKey: "exp.pt.title",
-            timeKey: "exp.pt.time",
-            descKey: "exp.pt.desc",
-        },
-        {
             titleKey: "exp.aus.title",
             timeKey: "exp.aus.time",
             descKey: "exp.aus.desc",
+        },
+        {
+            titleKey: "exp.pt.title",
+            timeKey: "exp.pt.time",
+            descKey: "exp.pt.desc",
         },
         {
             titleKey: "exp.icp.title",
